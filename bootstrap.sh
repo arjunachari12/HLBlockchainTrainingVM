@@ -105,3 +105,10 @@ sudo apt install maven
 mvn -version
 sudo apt install gradle
 echo "End: Java Install"
+
+export PATH=$PATH:/home/vagrant/fabric-samples/config
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-amd64
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin
+export JAVA_HOME
+export JRE_HOME
+export PATH
