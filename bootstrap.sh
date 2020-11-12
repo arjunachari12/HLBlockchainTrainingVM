@@ -100,6 +100,8 @@ echo "End: IPFS install"
 #Install Java
 echo "Started: Install Java"
 sudo apt install default-jre
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
 java -version
 sudo apt install maven
 mvn -version
