@@ -101,5 +101,7 @@ echo "End: IPFS install"
 echo "Started: Install Java"
 sudo apt install default-jre
 java -version
+sudo apt install maven
+mvn -version
+sudo apt install gradle
 echo "End: Java Install"
-echo "Everything succesfully installed"
